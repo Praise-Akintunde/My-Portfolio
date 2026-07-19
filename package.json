@@ -1,0 +1,12 @@
+
+{
+  "name": "akintunde-praise-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Akintunde Praise Oreoluwa",
+  "scripts": {
+    "dev": "echo 'Open index.html in your browser'",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["portfolio"],
+  "author": "Akintunde Praise Oreoluwa"
+}
