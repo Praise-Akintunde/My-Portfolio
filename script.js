@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
@@ -49,8 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function downloadCV() {
-    const cvContent = `
-AKINTUNDE PRAISE OREOLUWA
+    const cvContent = `AKINTUNDE PRAISE OREOLUWA
 Lagos, Nigeria • +2349032100257 • +2349024112227 • akintundepraise003@gmail.com • LinkedIn: Praise Akintunde
 
 PROFESSIONAL SUMMARY
@@ -111,7 +109,7 @@ UI/UX Elementary – PDU (October 2025)
 Introduction to Cybersecurity – Cisco Networking Academy (September 2024)
 Introduction to SQL – Simplilearn SkillUp (October 2023)
 Introduction to C++ – Simplilearn SkillUp (October 2022)
-    `.trim();
+`.trim();
 
     const blob = new Blob([cvContent], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
